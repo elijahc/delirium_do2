@@ -1,0 +1,23 @@
+[project]
+name = "marimo-do2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb>=1.5.0",
+    "marimo>=0.20.4",
+    "pandas>=3.0.1",
+    "pathlib>=1.0.1",
+    "pingouin>=0.6.0",
+    "plot-styler",
+    "polars>=1.38.1",
+    "pyarrow>=23.0.1",
+    "scienceplots>=2.2.1",
+    "seaborn>=0.13.2",
+    "slugify>=0.0.1",
+    "sqlglot>=29.0.1",
+]
+
+[tool.uv.sources]
+plot-styler = { git = "https://github.com/elijahc/plot-styler" }
